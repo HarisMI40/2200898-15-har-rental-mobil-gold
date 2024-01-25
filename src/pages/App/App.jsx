@@ -1,15 +1,15 @@
-import { Col, Container, Row } from "react-bootstrap";
-import style from "./app.module.css"
+import { Container } from "react-bootstrap";
+import Carousel from "../../components/Carousel/SectionCarousel";
+import CtaBanner from "../../components/CtaBanner/CtaBanner";
+import Faq from "../../components/Faq/Faq";
+import Footer from "../../components/Footer/Footer";
 import HeaderMain from "../../components/HeaderMain/HeaderMain";
 import Hero from "../../components/Hero/Hero";
 import OurService from "../../components/OurService/OurService";
 import WhyUs from "../../components/WhyUs/WhyUs";
-import CtaBanner from "../../components/CtaBanner/CtaBanner";
-import Faq from "../../components/Faq/Faq";
-import Footer from "../../components/Footer/Footer";
-import Carousel from "../../components/Carousel/SectionCarousel";
-function App() {
+import style from "./app.module.css";
 
+function App() {
   return (
     <div>
       <HeaderMain>
@@ -25,8 +25,10 @@ function App() {
       </Container>
 
       <div>
-      <div className="title text-center">Testimonial</div>
-      <div className="subtitle mt-3 text-center">Berbagai review positif dari para pelanggan kami</div>
+        <div className="title text-center">Testimonial</div>
+        <div className="subtitle mt-3 text-center">
+          Berbagai review positif dari para pelanggan kami
+        </div>
         <Carousel />
       </div>
 
@@ -35,12 +37,11 @@ function App() {
       </Container>
 
       <Container className={style.containerFaq} id="faq">
-        <Faq/>
+        <Faq />
       </Container>
 
-
       <Container className={style.containerFooter}>
-        <Footer/>
+        <Footer />
       </Container>
     </div>
   );

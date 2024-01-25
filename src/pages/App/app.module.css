@@ -1,27 +1,24 @@
-.containerOurService{
-    padding : 100px 20px;
-
+.containerOurService {
+  padding: 100px 20px;
 }
 
-
-.containerFaq{
-    margin-top: 104px;
+.containerFaq {
+  margin-top: 104px;
 }
 
-
-.containerFooter{
-    margin-top: 50px;
+.containerFooter {
+  margin-top: 50px;
 }
-.containerCtaBanner{
-    margin-top : 66px;
+.containerCtaBanner {
+  margin-top: 66px;
 }
 
-@media (min-width : 768px){
-    .containerOurService{
-        padding : 100px 0;
-    }
+@media (min-width: 768px) {
+  .containerOurService {
+    padding: 100px 0;
+  }
 
-    .containerCtaBanner{
-        margin-top : 106px;
-    }
+  .containerCtaBanner {
+    margin-top: 106px;
+  }
 }
